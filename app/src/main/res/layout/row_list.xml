@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="2dp"/>
+
+    <!--  <TextView
+          android:id="@+id/tvdes"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="2"
+          android:gravity="center"/>-->
+
+    <!--<TextView
+        android:id="@+id/tvrprice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"/>-->
+
+    <TextView
+        android:id="@+id/tvsprice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="2dp"/>
+
+    <TextView
+        android:id="@+id/tvcolors"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="2dp"/>
+
+    <ImageView
+        android:id="@+id/ivimage"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:layout_margin="2dp"/>
+
+    <Button
+        android:id="@+id/btnmodify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="modify"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="2dp"
+        android:background="@drawable/roundedcornerbluebutton"
+        android:textColor="@android:color/white"
+        android:minHeight="30dp"
+        />
+
+    <Button
+        android:id="@+id/btndelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="delete"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="2dp"
+        android:background="@drawable/roundedcornerbluebutton"
+        android:textColor="@android:color/white"
+        android:minHeight="30dp"/>
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:weightSum="4"
+    tools:context=".MainActivity"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btncpd1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Add mobile"
+        android:gravity="center"
+        android:background="@drawable/roundedcornerbluebutton"
+        android:textColor="@android:color/white"
+        android:layout_margin="2dp"/>
+    <Button
+        android:id="@+id/btncpd2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Add Car"
+        android:gravity="center"
+        android:background="@drawable/roundedcornerbluebutton"
+        android:textColor="@android:color/white"
+        android:layout_margin="2dp"/>
+    <Button
+        android:id="@+id/btncpd3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Add laptop"
+        android:gravity="center"
+        android:layout_margin="2dp"
+        android:background="@drawable/roundedcornerbluebutton"
+        android:textColor="@android:color/white"/>
+    <Button
+        android:id="@+id/btnshowproduct"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Show Product"
+        android:gravity="center"
+        android:layout_margin="2dp"
+        android:background="@drawable/roundedcornerbluebutton"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>
